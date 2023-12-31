@@ -1,11 +1,5 @@
-import React from 'react'
+import { combineReducers } from "@reduxjs/toolkit";
 
-const Reducers = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default Reducers
+export const rootReducer = combineReducers({
+  user: "slice",
+});
