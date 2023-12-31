@@ -5,22 +5,27 @@ import Singup from "./Singup";
 
 const Authentiction = () => {
   const [active, setActive] = useState("login");
+
+  const handleChange = () => {
+    setActive(active === "login" ? "singup" : "login");
+  };
   return (
     <div className="authentication">
       <div className="left-auth">
         <img src="/auth.png" alt="" />
       </div>
       <div className="right-auth">
-        <Singup />
+        {active === "login" ? <Login /> : <Singup />}
         <div className="more-auth">
           <span>
             {active === "login" ? (
               <>
-                Don't have an account? <button>Sing Up</button>
+                Don't have an account?{" "}
+                <button onClick={handleChange}>Sing Up</button>
               </>
             ) : (
               <>
-                Have an account? <button>Login</button>
+                Have an account? <button onClick={handleChange}>Login</button>
               </>
             )}
           </span>
