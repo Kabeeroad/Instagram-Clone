@@ -1,11 +1,10 @@
 import React from "react";
-import Login from "./Components/Login/Login";
+import Authentiction from "./Components/Authentiction";
 
 const App = () => {
   return (
     <div>
-      <h1>Insta🚀🚀</h1>
-      <Login />
+      <Authentiction />
     </div>
   );
 };

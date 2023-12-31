@@ -1,0 +1,29 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  padding: 40px;
+  margin-left: 30px;
+  margin-left: 30px;
+}
+.login > input {
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.login > input:focus {
+  outline: 1px solid grey;
+}
+.login > button {
+  padding: 12px;
+  border-radius: 8px;
+  border: 0;
+  color: white;
+  background-color: #0095f6;
+  font-weight: bolder;
+}
+.login > button:hover {
+  cursor: pointer;
+}
