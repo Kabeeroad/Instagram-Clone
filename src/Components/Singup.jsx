@@ -19,7 +19,7 @@ const Singup = () => {
         )
       )
       .catch((err) => {
-        alert(err);
+        // alert(err);
       });
   };
 
