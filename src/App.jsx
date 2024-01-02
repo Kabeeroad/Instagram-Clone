@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Home from "./Components/Home";
 import { loginUser, setLoading, userSlice } from "./Features/UserSlice";
 import { auth } from "./firebase";
-
+import "./app.css";
 const App = () => {
   const dispatch = useDispatch();
 
@@ -25,7 +25,19 @@ const App = () => {
     });
   }, []);
   const user = useSelector((state) => state.data.user.user);
-  return <div className="app">{user ? <Home /> : <Authentiction />}</div>;
+
+  const isloading = useSelector((state) => state.data.user.isloading);
+  return (
+    <div className="app">
+      {isloading ? (
+        <div className="custom-loader-container">
+          <div className="custom-loader"></div>
+        </div>
+      ) : (
+        <> {user ? <Home /> : <Authentiction />}</>
+      )}
+    </div>
+  );
 };
 
 export default App;
