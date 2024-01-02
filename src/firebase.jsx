@@ -1,8 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
-import { auth } from "../firebase";
-
 const firebaseConfig = {
   apiKey: "AIzaSyBlevmM4He5y818i7pqlCHMUPP-EpP9m-A",
   authDomain: "instagram-clone-b87d2.firebaseapp.com",
