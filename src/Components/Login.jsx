@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./login.css";
-import { signInwithEmailAndPassword } from "firebase/auth";
+import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase";
 
 const Login = () => {
@@ -8,7 +8,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
 
   const handlelogin = () => {
-    signInwithEmailAndPassword(auth, email, password);
+    signInWithEmailAndPassword(auth, email, password);
   };
   return (
     <div className="login">

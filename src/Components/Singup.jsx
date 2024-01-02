@@ -44,7 +44,7 @@ const Singup = () => {
         placeholder="Password"
         value={password}
       />
-      <button onClick={handleSingup}>Log in</button>
+      <button onClick={handleSingup}>Login</button>
     </div>
   );
 };
