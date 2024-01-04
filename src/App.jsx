@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import Authentiction from "./Components/Authentiction";
 import { useDispatch, useSelector } from "react-redux";
-import Home from "./Components/Home";
+
 import { loginUser, setLoading, userSlice } from "./Features/UserSlice";
 import { auth } from "./firebase";
 import "./app.css";
+import HomePage from "./HomePage";
 const App = () => {
   const dispatch = useDispatch();
 
@@ -34,7 +35,7 @@ const App = () => {
           <div className="custom-loader"></div>
         </div>
       ) : (
-        <> {user ? <Home /> : <Authentiction />}</>
+        <> {user ? <HomePage /> : <Authentiction />}</>
       )}
     </div>
   );
