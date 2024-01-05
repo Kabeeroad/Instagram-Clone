@@ -29,6 +29,7 @@ const App = () => {
 
   const isloading = useSelector((state) => state.data.user.isloading);
   return (
+    // <App />
     <div className="app">
       {isloading ? (
         <div className="custom-loader-container">

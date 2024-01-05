@@ -3,7 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { auth } from "./firebase";
 import { loginUser, logoutUser } from "./Features/UserSlice";
 import { signOut } from "firebase/auth";
-
+import Timeline from "./Components/Timeline";
+import Sidenave from "./Components/Sidenave";
 const HomePage = () => {
   const dispatch = useDispatch();
 
@@ -13,8 +14,12 @@ const HomePage = () => {
   };
   return (
     <div>
-      <h1>HomePage🚀🚀🚀</h1>
-      <button onClick={handlelogout}>Logout</button>
+      <div className="homepage-nav">
+        <Sidenave />
+      </div>
+      <div className="homepage-timeline">
+        <Timeline />
+      </div>
     </div>
   );
 };
