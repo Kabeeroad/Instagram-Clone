@@ -5,6 +5,7 @@ import { loginUser, logoutUser } from "./Features/UserSlice";
 import { signOut } from "firebase/auth";
 import Timeline from "./Components/Timeline";
 import Sidenave from "./Components/Sidenave";
+import "./Homepage.css";
 const HomePage = () => {
   const dispatch = useDispatch();
 
@@ -13,7 +14,7 @@ const HomePage = () => {
     signOut(auth);
   };
   return (
-    <div>
+    <div className="homepage">
       <div className="homepage-nav">
         <Sidenave />
       </div>
