@@ -9,3 +9,6 @@
   width: 200px;
   margin: 25px;
 }
+.sidenavbuttons {
+  display: flex;
+}
