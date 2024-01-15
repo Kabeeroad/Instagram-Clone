@@ -46,6 +46,8 @@ const Navigation = () => {
           <MenuIcon />
           <span>home</span>
         </button>
+
+        <div className="sidenave-button"></div>
       </div>
     </div>
   );
