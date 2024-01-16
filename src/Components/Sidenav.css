@@ -6,10 +6,28 @@
   z-index: 1;
 }
 .sidenav-logo {
-  width: 200px;
+  width: 120px;
   margin: 25px;
 }
 .sidenavbuttons {
   display: flex;
   flex-direction: column;
+}
+.sidenav-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  background: 0;
+  border: 0;
+  margin: 5px 10px 5px 10px;
+  padding: 10px 15px 10px 15px;
+  width: 100%;
+  /* background-color: red; */
+  border-radius: 15px;
+}
+
+.sidenav-button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255, 0.128);
 }

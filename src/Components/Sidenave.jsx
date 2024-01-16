@@ -14,35 +14,35 @@ const Navigation = () => {
     <div className="sidenav">
       <img className="sidenav-logo" src="logo.png" alt="" />
       <div className="sidenavbuttons">
-        <button className="sidenae-button">
+        <button className="sidenav-button">
           <HomeIcon />
           <span>Home</span>
         </button>
-        <button className="sidenae-button">
+        <button className="sidenav-button">
           <SearchIcon />
           <span>Search</span>
         </button>
-        <button className="sidenae-button">
+        <button className="sidenav-button">
           <ExploreIcon />
           <span>Explore</span>
         </button>
-        <button className="sidenae-button">
+        <button className="sidenav-button">
           <SlideshowIcon />
           <span>movie</span>
         </button>
-        <button className="sidenae-button">
+        <button className="sidenav-button">
           <ChatIcon />
           <span>home</span>
         </button>
-        <button className="sidenae-button">
+        <button className="sidenav-button">
           <FavoriteBorderIcon />
           <span>home</span>
         </button>
-        <button className="sidenae-button">
+        <button className="sidenav-button">
           <AddCircleOutlineIcon />
           <span>home</span>
         </button>
-        <button className="sidenae-button">
+        <button className="sidenav-button">
           <MenuIcon />
           <span>home</span>
         </button>
