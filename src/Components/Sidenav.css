@@ -31,3 +31,8 @@
   cursor: pointer;
   background-color: rgb(255, 255, 255, 0.128);
 }
+.sidenav-button > span {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 10px;
+}

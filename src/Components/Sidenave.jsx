@@ -28,23 +28,20 @@ const Navigation = () => {
         </button>
         <button className="sidenav-button">
           <SlideshowIcon />
-          <span>movie</span>
+          <span>Reels</span>
         </button>
         <button className="sidenav-button">
           <ChatIcon />
-          <span>home</span>
+          <span>Messages</span>
         </button>
         <button className="sidenav-button">
           <FavoriteBorderIcon />
-          <span>home</span>
+          <span>Notification</span>
         </button>
-        <button className="sidenav-button">
-          <AddCircleOutlineIcon />
-          <span>home</span>
-        </button>
+
         <button className="sidenav-button">
           <MenuIcon />
-          <span>home</span>
+          <span>More</span>
         </button>
 
         <div className="sidenave-button"></div>
