@@ -36,3 +36,7 @@
   font-weight: bolder;
   margin-left: 10px;
 }
+.sidenave-more {
+  position: fixed;
+  bottom: 3px;
+}
