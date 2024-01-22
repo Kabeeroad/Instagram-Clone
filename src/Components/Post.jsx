@@ -1,7 +1,8 @@
 import React from "react";
 import "./post.css";
 import { Avatar } from "@mui/material";
-import { MoreHoriz } from "@mui/icons-material";
+import { MoreHorizOutlined } from "@mui/icons-material";
+
 const Post = () => {
   return (
     <div className="post">
@@ -10,7 +11,8 @@ const Post = () => {
           <Avatar>K</Avatar>
           radian_. <span>12h</span>
         </div>
-        <MoreHoriz />
+
+        <MoreHorizOutlined />
       </div>
       <div className="post-img"></div>
       <div className="post-footer"></div>
