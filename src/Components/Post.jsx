@@ -14,7 +14,7 @@ const Post = () => {
 
         <MoreHorizOutlined />
       </div>
-      <div className="post-img">helo</div>
+      <div className="post-img"></div>
       <div className="post-footer"></div>
     </div>
   );
